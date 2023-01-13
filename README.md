@@ -1,4 +1,4 @@
-# LoadingScrenn for FiveM by TG Development
+# LoadingScreen for FiveM by TG Development
 Clean and smooth loadingscreen for your fivem server with audio controls, discord interactive icon and images.
 
 # PREVIEW
