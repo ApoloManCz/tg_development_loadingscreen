@@ -2,6 +2,7 @@
 Clean and smooth loadingscreen for your fivem server with audio controls, discord interactive icon and images.
 
 # PREVIEW
+https://streamable.com/8psd9k
 
 # FEATURES
 - Audio controls
