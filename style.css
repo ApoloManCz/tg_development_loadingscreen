@@ -1,0 +1,141 @@
+.audio-controls {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.audio-controls i {
+  font-size: 20px; 
+  color: rgb(0, 0, 0);
+  margin-right: 20px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.audio-controls i:active {
+  transform: rotate(180deg);
+}
+
+.audio-controls input[type="range"] {
+  -webkit-appearance: none;
+  width: 150px; 
+  height: 2px; 
+  border-radius: 4px;
+  background: rgb(2, 2, 2);
+  outline: none;
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px; 
+    height: 8px; 
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+  }
+  &::-moz-range-thumb {
+    width: 20px; 
+    height: 8px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+  }
+}
+
+.logo-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+.logo-container img {
+  width: 75%; 
+  height: 75%; 
+  border-radius: 50%;
+}
+
+body {
+  cursor: default;
+}
+
+.frame {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-repeat: repeat;
+  animation: image 35s infinite alternate;
+}
+
+.blue-box {
+  width: 55px;
+  height: 50px;
+  left: 48.5%;
+  background-color: rgba(0, 0, 255, 0.699);
+  box-shadow: 0 0 10px blue;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  transform: rotate(0deg);
+  }
+  
+  .blue-box:hover {
+  transform: rotate(360deg);
+  box-shadow: 0 0 20px blue;
+  }
+  
+  .blue-box:hover img{
+  width: 120%;
+  height: 110%;
+  margin-bottom: 2px;
+  }
+  
+  .blue-box img{
+  width: 80%;
+  height: 90%;
+  margin-bottom: 2px;
+  transition: all 0.5s ease-in-out;
+  }
+@keyframes image {
+  0% {
+    background-image: url('/assets/image1.jpg');
+  }
+  10% {
+    background-image: url('/assets/image2.jpg');
+  }
+  20% {
+    background-image: url('/assets/image3.jpg');
+  }
+  30% {
+    background-image: url('/assets/image4.jpg');
+  }
+  40% {
+    background-image: url('/assets/image5.jpg');
+  }
+  50% {
+    background-image: url('/assets/image6.jpg');
+  }
+  60% {
+    background-image: url('/assets/image7.jpg');
+  }
+  70% {
+    background-image: url('/assets/image8.jpg');
+  }
+  80% {
+    background-image: url('/assets/image9.jpg');
+  }
+  90% {
+    background-image: url('/assets/image10.jpg');
+  }
+}
