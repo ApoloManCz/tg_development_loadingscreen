@@ -33,5 +33,5 @@ var iconBox = document.querySelector('.blue-box');
 iconBox.addEventListener('click', redirect);
   
 function redirect() {
-window.location.href = "http://127.0.0.1:5500/";
+window.location.href = "YOUR LINK";
 }
